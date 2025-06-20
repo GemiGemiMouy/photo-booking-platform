@@ -57,7 +57,7 @@ function Testimonials() {
     {
       id: 1,
       name: "Anna K.",
-      quote: "The Photosnap team captured our wedding beautifully. Highly recommended!",
+      quote: "The GemiPhoto team captured our wedding beautifully. Highly recommended!",
     },
     {
       id: 2,
