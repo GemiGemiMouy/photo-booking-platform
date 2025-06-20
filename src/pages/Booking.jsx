@@ -125,7 +125,12 @@ export default function Booking() {
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Step 1 - Select Service */}
         {step === 1 && (
-          <motion.div key="step1" initial="hidden" animate="visible" variants={fadeUp}>
+          <motion.div
+            key="step1"
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+          >
             <label
               htmlFor="service"
               className="block mb-2 font-semibold text-gray-700 dark:text-gray-300"
@@ -153,11 +158,16 @@ export default function Booking() {
 
         {/* Step 2 - Select Date */}
         {step === 2 && (
-          <motion.div key="step2" initial="hidden" animate="visible" variants={fadeUp}>
+          <motion.div
+            key="step2"
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+          >
             <label className="block mb-2 font-semibold text-gray-700 dark:text-gray-300 text-center">
               Select Date
             </label>
-            <div className="flex justify-center">
+            <div className="flex justify-center overflow-auto">
               <DayPicker
                 mode="single"
                 selected={selectedDate}
@@ -181,7 +191,12 @@ export default function Booking() {
 
         {/* Step 3 - Select Time */}
         {step === 3 && (
-          <motion.div key="step3" initial="hidden" animate="visible" variants={fadeUp}>
+          <motion.div
+            key="step3"
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+          >
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 text-center">
               Available Times on{" "}
               <span className="text-purple-600">
@@ -195,9 +210,9 @@ export default function Booking() {
               </span>
             </h3>
 
-            <div className="flex justify-center gap-12">
+            <div className="flex flex-col sm:flex-row justify-center gap-12">
               {/* Morning */}
-              <div>
+              <div className="flex-1">
                 <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2 mb-3 justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +236,7 @@ export default function Booking() {
                       key={time}
                       type="button"
                       onClick={() => setSelectedTime(time)}
-                      className={`px-4 py-2 rounded-lg border transition focus:outline-none ${
+                      className={`px-4 py-2 rounded-lg border transition focus:outline-none w-full sm:w-auto text-center ${
                         selectedTime === time
                           ? "bg-purple-600 border-purple-600 text-white shadow-lg"
                           : "bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 hover:bg-purple-200 dark:hover:bg-purple-700"
@@ -234,7 +249,7 @@ export default function Booking() {
               </div>
 
               {/* Afternoon */}
-              <div>
+              <div className="flex-1">
                 <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2 mb-3 justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -258,7 +273,7 @@ export default function Booking() {
                       key={time}
                       type="button"
                       onClick={() => setSelectedTime(time)}
-                      className={`px-4 py-2 rounded-lg border transition focus:outline-none ${
+                      className={`px-4 py-2 rounded-lg border transition focus:outline-none w-full sm:w-auto text-center ${
                         selectedTime === time
                           ? "bg-purple-600 border-purple-600 text-white shadow-lg"
                           : "bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 hover:bg-purple-200 dark:hover:bg-purple-700"
@@ -275,7 +290,12 @@ export default function Booking() {
 
         {/* Step 4 - Personal Info */}
         {step === 4 && (
-          <motion.div key="step4" initial="hidden" animate="visible" variants={fadeUp}>
+          <motion.div
+            key="step4"
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+          >
             <div className="space-y-6">
               <div>
                 <label
@@ -342,7 +362,12 @@ export default function Booking() {
 
         {/* Step 5 - Summary & Confirm */}
         {step === 5 && (
-          <motion.div key="step5" initial="hidden" animate="visible" variants={fadeUp}>
+          <motion.div
+            key="step5"
+            initial="hidden"
+            animate="visible"
+            variants={fadeUp}
+          >
             <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white text-center">
               Review & Confirm Your Booking
             </h3>
@@ -378,12 +403,12 @@ export default function Booking() {
         )}
 
         {/* Navigation Buttons */}
-        <div className="flex justify-between mt-8">
+        <div className="flex flex-col sm:flex-row justify-between mt-8 gap-4">
           {step > 1 && (
             <button
               type="button"
               onClick={handleBack}
-              className="px-6 py-3 bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-md font-semibold hover:bg-gray-400 dark:hover:bg-gray-600 transition"
+              className="w-full sm:w-auto px-6 py-3 bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-md font-semibold hover:bg-gray-400 dark:hover:bg-gray-600 transition"
             >
               Back
             </button>
@@ -392,7 +417,7 @@ export default function Booking() {
             <button
               type="button"
               onClick={handleNext}
-              className="ml-auto px-6 py-3 bg-purple-600 text-white rounded-md font-semibold hover:bg-purple-700 transition"
+              className="w-full sm:w-auto ml-auto px-6 py-3 bg-purple-600 text-white rounded-md font-semibold hover:bg-purple-700 transition"
             >
               Next
             </button>
@@ -400,7 +425,7 @@ export default function Booking() {
           {step === totalSteps && (
             <button
               type="submit"
-              className="ml-auto px-6 py-3 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700 transition"
+              className="w-full sm:w-auto ml-auto px-6 py-3 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700 transition"
             >
               Confirm Booking
             </button>
