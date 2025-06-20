@@ -1,12 +1,44 @@
-# React + Vite
+# 📸 GemiPhoto Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Book your special moments with professional photographers — fast, modern, and easy.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📅 Multi-step booking form with modern calendar & time slot picker  
+- 🧑‍💼 Choose from multiple professional photography services  
+- 🌙 Light & dark mode with smooth transitions  
+- 🔄 Fully responsive for desktop, tablet, and mobile  
+- 💌 Newsletter subscription & animated testimonials  
+- 🧠 Clean code structure with reusable React components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- ⚛️ React 
+- 🎨 Tailwind CSS
+- 🎞️ Framer Motion (for animations)
+- 📍 React Router DOM
+- 🗓️ date-fns + react-datepicker
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/GemiGemiMouy/photo-booking-platform
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+👨‍💻 Developer
+Developed with ❤️ by Seakmouy Seng (Gemi)
+
+🌐 Live Demo
+Coming soon... (deploy on Netlify or Vercel)
