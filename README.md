@@ -37,8 +37,9 @@ npm install
 # Start the dev server
 npm run dev
 
-👨‍💻 Developer
+
+## 👨‍💻 Developer
 Developed with ❤️ by Seakmouy Seng (Gemi)
 
-🌐 Live Demo
+## 🌐 Live Demo
 Coming soon... (deploy on Netlify or Vercel)
