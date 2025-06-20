@@ -24,6 +24,10 @@
 - 🗓️ date-fns + react-datepicker
 
 ---
+## 👨‍💻 Developer
+Developed with ❤️ by Seakmouy Seng (Gemi)
+
+---
 
 ## 🚀 Getting Started
 
@@ -38,7 +42,4 @@ npm install
 npm run dev
 
 
----
 
-## 👨‍💻 Developer
-Developed with ❤️ by Seakmouy Seng (Gemi)
