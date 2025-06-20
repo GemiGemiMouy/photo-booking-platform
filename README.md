@@ -29,6 +29,8 @@ Developed with ❤️ by Seakmouy Seng (Gemi)
 
 ---
 ## 🌐 Live Demo
+Check out the live site deployed on Netlify:
+https://photo-booking-platform.netlify.app/
 
 ---
 
