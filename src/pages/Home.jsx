@@ -139,7 +139,7 @@ function CallToAction() {
       >
         Book your session today and create memories that last a lifetime.
       </motion.p>
-      <motion.a
+     {/* <motion.a
         href="/booking"
         className="inline-block bg-white text-purple-700 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition cursor-pointer text-sm sm:text-base"
         whileHover={{ scale: 1.05 }}
@@ -148,7 +148,14 @@ function CallToAction() {
         custom={3}
       >
         Book Now
-      </motion.a>
+      </motion.a>*/}
+          <Link
+      to="/booking"
+      className="inline-block bg-white text-purple-700 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition cursor-pointer text-sm sm:text-base"
+    >
+      Book Now
+    </Link>
+
     </motion.section>
   );
 }
