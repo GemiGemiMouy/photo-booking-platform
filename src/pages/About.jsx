@@ -12,7 +12,7 @@ export default function About() {
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <img
-          src="https://plus.unsplash.com/premium_photo-1698362819146-bb3233129fda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWJvdXQlMjBib29raW5nJTIwcGhvdG98ZW58MHx8MHx8fDA%3D"
+          src="https://images.unsplash.com/photo-1568222187822-5fde2a6c9298?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFib3V0JTIwYm9va2luZyUyMHBob3RvfGVufDB8fDB8fHww"
           alt="Photographer with camera"
           className="rounded-xl shadow-lg"
         />
