@@ -244,7 +244,7 @@ export default function Home() {
           variants={fadeUp}
           custom={1}
         >
-          Why Choose Photosnap
+          Why Choose GemiBook
         </motion.h2>
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10"
