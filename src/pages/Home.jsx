@@ -139,21 +139,21 @@ function CallToAction() {
       >
         Book your session today and create memories that last a lifetime.
       </motion.p>
-    <motion.div
+
+      {/* ✅ Fixed Link to Booking Page */}
+      <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         variants={fadeUp}
         custom={3}
       >
-        <Link
-          to="/booking"
+        <a
+          href="/booking"
           className="inline-block bg-white text-purple-700 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition cursor-pointer text-sm sm:text-base"
         >
           Book Now
-        </Link>
-</motion.div>
-
-
+        </a>
+      </motion.div>
     </motion.section>
   );
 }
