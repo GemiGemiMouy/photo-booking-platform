@@ -69,6 +69,11 @@ function Testimonials() {
       name: "Sophia L.",
       quote: "Event photos were amazing and perfectly timed. Great experience overall.",
     },
+    {
+      id: 4,
+    name: "Jonh Deo.",
+    quote: "The platform is smooth, fast, and easy to use. Great for my business!",
+  },
   ];
 
   const [index, setIndex] = useState(0);

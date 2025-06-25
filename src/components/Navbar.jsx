@@ -181,7 +181,6 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
     >
       Booking
     </Link>
-    {/* Removed dark mode toggle button here */}
   </div>
 )}
 

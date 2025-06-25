@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     name: "Emily R.",
-    text: "Photosnap exceeded our expectations. The photos were timeless and the experience was smooth.",
+    text: "GemiBook exceeded our expectations. The photos were timeless and the experience was smooth.",
   },
   {
     name: "Michael T.",
@@ -13,6 +13,10 @@ const testimonials = [
   {
     name: "Sarah L.",
     text: "The photos perfectly captured our corporate event’s atmosphere and energy.",
+  },
+   {
+    name: "Jonh Deo.",
+    text: "The platform is smooth, fast, and easy to use. Great for my business!",
   },
 ];
 
